@@ -212,12 +212,12 @@ public class CollegeManagementSystem {
         CollegeManager collegeManager = new CollegeManager();
 
         // Adding students to the system
-        collegeManager.addStudent("Alice", "alice@example.com", "1234567890", "123 Main St");
-        collegeManager.addStudent("Bob", "bob@example.com", "9876543210", "456 Elm St");
+        collegeManager.addStudent("Ajit", "ajit@gmail.com", "1234567890", "Pune");
+        collegeManager.addStudent("Bobby", "bobby@gmail.com", "9876543210", "Pune");
 
         // Adding courses to the system
-        collegeManager.addCourse("Math 101", "Dr. Smith", 3, 20);
-        collegeManager.addCourse("History 101", "Prof. Johnson", 3, 15);
+        collegeManager.addCourse("Math 101", "Prof Kulkarni", 3, 20);
+        collegeManager.addCourse("History 101", "Prof. Joshi", 3, 15);
 
         // Enrolling students in courses
         collegeManager.enrollStudentInCourse(1, 1, "2023-10-04");
